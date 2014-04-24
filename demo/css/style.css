@@ -2,8 +2,7 @@
     list-style-type: none !important;
 	color: #21252E;
 	width: 98%;
-	font-weight: bold;
-	margin-left:20px;
+	line-height:1.5em;
 }
 
 /*fluid grid layout using twitter bootstrap */
@@ -29,7 +28,6 @@
 }
 
 .quiz_container .question_container h1, .question p, .revealed_answer p {
-	line-height: 1.5em;	
 }
 
 .quiz_container .question .hint {
@@ -37,17 +35,14 @@
 }
 
 .quiz_container .question_container h1 {
-	font-size: 1.2em;
-	margin: 0em 0em 1em 0em;
+
 }
 
 .quiz_container .question_container .title {
 
-	font-weight: normal;
 }
 
 .quiz_container .question p {
-	font-size: 1.1em;
 	max-height: 8em;
 }
 
@@ -76,12 +71,7 @@
 /*more styling for answers*/
 
 .quiz_container .revealed_answer p {
-	font-size: 1.2em;
-	line-height: 1.5em;
-	padding: 0em 0 0 0;
-	margin: 0;
-	min-height: 3em;
-	font-weight: normal;
+
 
 }
 
@@ -143,13 +133,9 @@
 	max-height: 200px;
 }
 
-.quiz_container .possible_answer img {
-	max-height: 24em;
-}
-
-.quiz_container .question img, .revealed_answer img, .selected img, .correct_answer img, .wrong_answer img {
-    max-height: 24em;
-    display: block;
+.quiz_container img {
+	max-height: 10em;
+	display: block;
 }
 
 .videoembed {

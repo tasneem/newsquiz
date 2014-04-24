@@ -84,8 +84,8 @@
                     },
                     create_element : function(slide) {
                         if (!slide[this.name]) {return '';}
-                        return $('<h1 class="' + this.name + '">' +
-                            slide[this.name] + '</h1>' 
+                        return $('<h4 class="' + this.name + '">' +
+                            slide[this.name] + '</h4>' 
                         );
                     } 
                 },
@@ -496,7 +496,7 @@
                 container_elem = $('<ul></ul>');
                 cover.append(container_elem);
                 container_elem.addClass('quiz_container');
-                container_elem.css('padding', '0px');
+//                container_elem.css('padding', '0px');
             },
             update_how_you_did_element: function() {
                 var right_answers = 0;
